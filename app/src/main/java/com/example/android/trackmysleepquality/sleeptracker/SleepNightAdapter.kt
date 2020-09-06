@@ -81,10 +81,6 @@ class SleepNightAdapter(val clickListener: SleepNightListener):
             withContext(Dispatchers.Main) {
                 submitList(items)
             }
-            }
-        withContext(Dispatchers.Main) {
-            submitList(items)
-            }
         }
     }
 }
